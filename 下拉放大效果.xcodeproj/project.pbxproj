@@ -15,6 +15,7 @@
 		2205C5CF1E4AC43E00B0BF23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2205C5CD1E4AC43E00B0BF23 /* LaunchScreen.storyboard */; };
 		2205C5DA1E4AC43F00B0BF23 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2205C5D91E4AC43F00B0BF23 /* ______Tests.m */; };
 		2205C5E51E4AC43F00B0BF23 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2205C5E41E4AC43F00B0BF23 /* ______UITests.m */; };
+		2205C5F31E4AC92800B0BF23 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2205C5F21E4AC92800B0BF23 /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		2205C5E01E4AC43F00B0BF23 /* 下拉放大效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "下拉放大效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2205C5E41E4AC43F00B0BF23 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		2205C5E61E4AC43F00B0BF23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2205C5F21E4AC92800B0BF23 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				2205C5C51E4AC43E00B0BF23 /* ViewController.h */,
 				2205C5C61E4AC43E00B0BF23 /* ViewController.m */,
 				2205C5C81E4AC43E00B0BF23 /* Main.storyboard */,
+				2205C5F21E4AC92800B0BF23 /* 1.jpg */,
 				2205C5CB1E4AC43E00B0BF23 /* Assets.xcassets */,
 				2205C5CD1E4AC43E00B0BF23 /* LaunchScreen.storyboard */,
 				2205C5D01E4AC43E00B0BF23 /* Info.plist */,
@@ -247,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2205C5CF1E4AC43E00B0BF23 /* LaunchScreen.storyboard in Resources */,
+				2205C5F31E4AC92800B0BF23 /* 1.jpg in Resources */,
 				2205C5CC1E4AC43E00B0BF23 /* Assets.xcassets in Resources */,
 				2205C5CA1E4AC43E00B0BF23 /* Main.storyboard in Resources */,
 			);
