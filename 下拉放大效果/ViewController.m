@@ -12,7 +12,7 @@
 #define Screen_Width CGRectGetWidth(Screen_Bounds)
 
 #define Screen_Height CGRectGetHeight(Screen_Bounds)
-#define Image_Height 200
+#define Image_Height 250
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource, UIScrollViewDelegate>
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) UIImageView *image;
@@ -74,7 +74,7 @@
 
     if (!_tableView) {
         UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStylePlain];
-         [tableView setContentInset:UIEdgeInsetsMake(200, 0, 0, 0)];
+         [tableView setContentInset:UIEdgeInsetsMake(Image_Height, 0, 0, 0)];
         tableView.delegate = self;
         tableView.dataSource = self;
         _tableView = tableView;

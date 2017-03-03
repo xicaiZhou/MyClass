@@ -210,6 +210,7 @@
 				TargetAttributes = {
 					2205C5BB1E4AC43E00B0BF23 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = XKHXLQW8C3;
 						ProvisioningStyle = Automatic;
 					};
 					2205C5D41E4AC43F00B0BF23 = {
@@ -428,9 +429,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = XKHXLQW8C3;
 				INFOPLIST_FILE = "下拉放大效果/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ARZXC.www.------";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARZXC.wwwz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -439,9 +442,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = XKHXLQW8C3;
 				INFOPLIST_FILE = "下拉放大效果/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ARZXC.www.------";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARZXC.wwwz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -511,6 +516,7 @@
 				2205C5EB1E4AC43F00B0BF23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2205C5EC1E4AC43F00B0BF23 /* Build configuration list for PBXNativeTarget "下拉放大效果Tests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				2205C5EE1E4AC43F00B0BF23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2205C5EF1E4AC43F00B0BF23 /* Build configuration list for PBXNativeTarget "下拉放大效果UITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +534,7 @@
 				2205C5F11E4AC43F00B0BF23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
